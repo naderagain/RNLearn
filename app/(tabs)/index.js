@@ -6,7 +6,13 @@ export default function index(){
 
     return (
         <View>
+
+          <>  
           <Text>index</Text>
+          <Text>index</Text>
+
+
+          </>
         </View>
       )
 
