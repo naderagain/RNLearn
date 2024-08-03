@@ -36,6 +36,8 @@ export default function index(){
 const s = StyleSheet.create({
     title: {
         color: "red",
-        marginTop: 50
+        marginTop: 50,
+        marginLeft: "40%"
+
     }
 })
