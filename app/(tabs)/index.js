@@ -1,4 +1,4 @@
-import { View, Text } from 'react-native'
+import { StyleSheet, View, Text } from 'react-native'
 import React from 'react'
 import Nadertest from '../../components/Nadertest'
 
@@ -16,7 +16,7 @@ export default function index(){
           <SafeAreaProvider>
             <SafeAreaView>
 
-            <Text  style = {{ color: "red", fontSize: 100  }}   >inasdffdsdex</Text>
+            <Text  style = { s.title  }   >inasdffdsdex</Text>
           <Nadertest></Nadertest>
           <Text>index</Text>
 
@@ -29,4 +29,12 @@ export default function index(){
           </>
       )
 
+
+     
 }
+
+const s = StyleSheet.create({
+    title: {
+        color: "red"
+    }
+})
