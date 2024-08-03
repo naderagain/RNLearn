@@ -16,7 +16,7 @@ export default function index(){
           <SafeAreaProvider>
             <SafeAreaView>
 
-            <Text>inasdffdsdex</Text>
+            <Text  style = {{ }}   >inasdffdsdex</Text>
           <Nadertest></Nadertest>
           <Text>index</Text>
 
