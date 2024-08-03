@@ -1,4 +1,3 @@
-import { TouchableOpacity } from "react-native-gesture-handler";
 import { View, Text } from "react-native";
 import React from "react";
 // A component always start with a function and make sure method name is capital
