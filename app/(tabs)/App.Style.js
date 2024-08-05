@@ -6,5 +6,13 @@ export const s = StyleSheet.create({
         marginTop: 50,
         marginLeft: "40%"
 
-    }
+    },
+
+    square: {
+
+        height: 100,
+        backgroundColor: "green",
+        width: 100,
+
+    },
 })

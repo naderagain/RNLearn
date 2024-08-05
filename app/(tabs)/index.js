@@ -18,6 +18,13 @@ export default function index(){
             <SafeAreaView>
 
             <Text  style = { s.title  }   >inasdffdsdex</Text>
+            <View style = {s.square}>
+
+                <Text>Super!</Text>
+
+
+            </View>
+
           <Nadertest></Nadertest>
           <Text>index</Text>
 
