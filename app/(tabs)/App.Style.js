@@ -9,10 +9,8 @@ export const s = StyleSheet.create({
     },
 
     square: {
-
         height: 100,
         backgroundColor: "green",
         width: 100,
-
     },
 })
