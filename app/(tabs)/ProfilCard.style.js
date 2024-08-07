@@ -14,20 +14,16 @@ export const s = StyleSheet.create({
 
 
     container: {
-        backgroundColor: "white"
-    },
-
-
-    title: {
-        color: "red",
-        marginTop: 50,
-        marginLeft: "40%"
-
-    },
-
-    square: {
-        height: 100,
-        backgroundColor: "green",
-        width: 100,
-    },
+        borderRadius: 10,
+        padding: 20,
+        backgroundColor: "white",
+        shadowColor: "#000",
+        shadowOffset: {
+          width: 0,
+          height: 2,
+        },
+        shadowOpacity: 0.25,
+        shadowRadius: 3.84,
+        elevation: 5,
+      },
 })
