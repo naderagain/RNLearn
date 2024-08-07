@@ -1,11 +1,15 @@
-import { TouchableOpacity, View } from "react-native";
-
-
-
-
+import { TouchableOpacity, View, Text } from "react-native";
+import {s} from "./ProfilCard.style"
 export function ProfileCard(){
 
-    return <View></View>
+    return <View  style={s.container}>
 
 
+ 
+
+      <Text>adsfasdfadsfds</Text>
+      <Text>adsfasdfadsfds</Text>
+
+
+    </View>
 }
