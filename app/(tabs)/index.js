@@ -11,7 +11,7 @@ export default function index(){
     return (
 
 
-          <>  
+         
 
 
           <SafeAreaProvider>
@@ -33,8 +33,7 @@ export default function index(){
           </SafeAreaProvider>
           
           
-
-          </>
+ 
       )
 
 
