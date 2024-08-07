@@ -2,6 +2,8 @@ import { StyleSheet, View, Text } from 'react-native'
 import React from 'react'
 import Nadertest from '../../components/Nadertest'
 import {s} from "./App.Style"
+import { ProfileCard } from './ProfileCard'
+
 
 // you are importing 2 components: 
 // npm i 
@@ -15,18 +17,10 @@ export default function index(){
 
 
           <SafeAreaProvider>
-            <SafeAreaView style = {{backgroundColor: "Red" , flex: 1}}>
+            <SafeAreaView style = {{ flex: 1}}>
 
-            <Text  style = { s.title  }   >inasdffdsdex</Text>
-            <View style = {s.square}>
-
-                <Text>Super!</Text>
-
-
-            </View>
-
-          <Nadertest></Nadertest>
-          <Text>index</Text>
+        
+            <ProfileCard/>
 
 
             </SafeAreaView>
