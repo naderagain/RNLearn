@@ -5,10 +5,20 @@ export function ProfileCard(){
     return <View  style={s.container}>
 
 
+      <View>
+      <Text>adsfasdfadsfds</Text>
+      <Text>adsfasdfadsfds</Text>
+
+      </View>
  
 
-      <Text>adsfasdfadsfds</Text>
-      <Text>adsfasdfadsfds</Text>
+
+     <View>
+
+      
+     </View>
+
+
 
 
     </View>
