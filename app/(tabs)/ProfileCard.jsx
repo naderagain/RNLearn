@@ -1,22 +1,21 @@
-import { TouchableOpacity, View, Text } from "react-native";
+import { TouchableOpacity, View, Text, Image } from "react-native";
 import {s} from "./ProfilCard.style"
 export function ProfileCard(){
 
     return <View  style={s.container}>
 
 
-      <View>
-      <Text>adsfasdfadsfds</Text>
-      <Text>adsfasdfadsfds</Text>
-
+      <View style={s.header}>
+       <Image style={s.avatar} source = { {uri: "https://i.pravatar.cc/300"}}      />
+      
       </View>
  
 
 
-     <View>
+     {/* <View style={s.social} >
 
-      
-     </View>
+
+     </View> */}
 
 
 
