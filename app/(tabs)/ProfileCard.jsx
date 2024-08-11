@@ -12,6 +12,10 @@ export function ProfileCard(){
  
 
 
+
+<Text>asfasfsdfafasfafds</Text>
+
+<Text>asfasfsdfafasfafds</Text>
      {/* <View style={s.social} >
 
 
