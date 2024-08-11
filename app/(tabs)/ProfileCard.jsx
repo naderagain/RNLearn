@@ -1,5 +1,9 @@
 import { TouchableOpacity, View, Text, Image } from "react-native";
 import { s } from "./ProfilCard.style";
+import FontAwesome from '@expo/vector-icons/FontAwesome';
+//import { FontAwesome } from "@expo/vector-icons";
+
+
 export function ProfileCard() {
   return (
     <View style={s.container}>
@@ -18,7 +22,17 @@ export function ProfileCard() {
         </View>
       </View>
 
-      
+    
+
+<View>
+<FontAwesome name="twitter" size={24} color="black" />
+</View>
+
+
     </View>
+
+
+
+
   );
 }
