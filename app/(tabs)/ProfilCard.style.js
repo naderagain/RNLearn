@@ -13,6 +13,18 @@ import { StyleSheet, View, Text } from 'react-native'
 export const s = StyleSheet.create({
 
 
+  header: {
+    flexDirection: "row",
+  },
+
+
+  avatar: {
+    width: 70,
+    height: 70,
+    borderRadius: "50%",
+  },
+
+
     container: {
         borderRadius: 10,
         padding: 20,
