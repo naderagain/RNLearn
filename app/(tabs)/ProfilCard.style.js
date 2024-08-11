@@ -14,6 +14,12 @@ export const s = StyleSheet.create({
 
 
 
+  texts: {
+    flex: 1,
+    paddingLeft: 15,
+  },
+
+
   name: {
     fontSize: 24,
     fontWeight: "bold",

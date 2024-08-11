@@ -10,12 +10,15 @@ export function ProfileCard() {
             source={{ uri: "https://i.pravatar.cc/300" }}
           />
         </View>
+        <View style={s.texts}>
+          <Text style={s.name}>Codiku TheDev</Text>
+          <Text>
+            Hi I am React native developer, let's get in touch, and soon
+          </Text>
+        </View>
       </View>
 
-      <View>
-        <Text  style={s.name} >asfasfsdfafasfafds</Text>
-        <Text>asfasfsdfafasfafds</Text>
-      </View>
+      
     </View>
   );
 }
