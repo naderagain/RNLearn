@@ -41,7 +41,7 @@ export const s = StyleSheet.create({
 
     container: {
         borderRadius: 10,
-        
+        padding: 20,
         backgroundColor: "white",
         shadowColor: "#000",
         shadowOffset: {
