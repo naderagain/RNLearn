@@ -6,16 +6,27 @@ export function ProfileCard(){
 
 
       <View style={s.header}>
-       <Image style={s.avatar} source = { {uri: "https://i.pravatar.cc/300"}}      />
+
+
+      <View>
+      <Image style={s.avatar} source = { {uri: "https://i.pravatar.cc/300"}}      />
+      </View>
+       
       
       </View>
  
 
 
+<View>
 
 <Text>asfasfsdfafasfafds</Text>
-
 <Text>asfasfsdfafasfafds</Text>
+</View>
+
+
+
+
+
      {/* <View style={s.social} >
 
 
