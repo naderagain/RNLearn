@@ -6,7 +6,7 @@ export function ProfileCard(){
 
 
       <View style={s.header}>
-       <Image style={s.avatar} source = { {uri: "https://i.pravatar.cc/300"}}      />
+       <Image style={{height: 650, width: '100%'}} source = { {uri: "https://i.pravatar.cc/300"}}      />
       
       </View>
  
