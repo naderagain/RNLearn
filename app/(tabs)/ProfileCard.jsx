@@ -16,11 +16,6 @@ export function ProfileCard() {
         <Text>asfasfsdfafasfafds</Text>
         <Text>asfasfsdfafasfafds</Text>
       </View>
-
-      {/* <View style={s.social} >
-
-
-     </View> */}
     </View>
   );
 }
