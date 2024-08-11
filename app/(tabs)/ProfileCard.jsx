@@ -13,7 +13,7 @@ export function ProfileCard() {
       </View>
 
       <View>
-        <Text>asfasfsdfafasfafds</Text>
+        <Text  style={s.name} >asfasfsdfafasfafds</Text>
         <Text>asfasfsdfafasfafds</Text>
       </View>
     </View>

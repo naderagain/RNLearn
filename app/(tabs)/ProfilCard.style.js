@@ -13,6 +13,14 @@ import { StyleSheet, View, Text } from 'react-native'
 export const s = StyleSheet.create({
 
 
+
+  name: {
+    fontSize: 24,
+    fontWeight: "bold",
+    marginBottom: 5,
+  },
+
+
   header: {
     flexDirection: "row",
   },
