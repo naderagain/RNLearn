@@ -20,7 +20,7 @@ export default function index(){
             <SafeAreaView style = {{ flex: 1, justifyContent: "center" , padding: 20  }}>
 
         
-            <ProfileCard/>
+            <ProfileCard  firstName = {"Codiku"}  lastName={"TheDev"}  age={30}  />
             <ProfileCard/>
             <ProfileCard/>
 
