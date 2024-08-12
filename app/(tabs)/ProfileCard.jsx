@@ -25,11 +25,12 @@ export function ProfileCard() {
     
 
 <View>
-<FontAwesome name="twitter" size={24} color="black" />
+<FontAwesome name="twitter" size={24} color="#1DA1F2" />
+<FontAwesome name="linkedin-square" size={24} color="#0A66C2" />
+<FontAwesome name="github" size={24} color="#333" />
+
 </View>
-
-
-    </View>
+</View>
 
 
 
