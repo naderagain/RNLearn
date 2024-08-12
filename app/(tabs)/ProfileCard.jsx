@@ -4,7 +4,9 @@ import FontAwesome from '@expo/vector-icons/FontAwesome';
 //import { FontAwesome } from "@expo/vector-icons";
 
 
-export function ProfileCard() {
+export function ProfileCard(props) {
+  
+  console.log(props)
   return (
     <View style={s.container}>
       <View style={s.header}>
