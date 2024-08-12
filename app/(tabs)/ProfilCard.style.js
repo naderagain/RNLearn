@@ -12,7 +12,11 @@ import { StyleSheet, View, Text } from 'react-native'
 
 export const s = StyleSheet.create({
 
-
+  social: {
+    padding: 10,
+    justifyContent: "space-evenly",
+    flexDirection: "row",
+  },
 
   texts: {
     flex: 1,

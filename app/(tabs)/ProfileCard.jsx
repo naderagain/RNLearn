@@ -24,7 +24,7 @@ export function ProfileCard() {
 
     
 
-<View>
+<View style={s.social}>
 
 <TouchableOpacity>
 <FontAwesome name="twitter" size={24} color="#1DA1F2" />
