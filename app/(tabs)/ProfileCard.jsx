@@ -25,9 +25,20 @@ export function ProfileCard() {
     
 
 <View>
+
+<TouchableOpacity>
 <FontAwesome name="twitter" size={24} color="#1DA1F2" />
+</TouchableOpacity>
+
+
+<TouchableOpacity>
 <FontAwesome name="linkedin-square" size={24} color="#0A66C2" />
+</TouchableOpacity>
+
+<TouchableOpacity>
+
 <FontAwesome name="github" size={24} color="#333" />
+</TouchableOpacity>
 
 </View>
 </View>
