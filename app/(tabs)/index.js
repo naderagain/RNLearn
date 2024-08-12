@@ -17,9 +17,11 @@ export default function index(){
 
 
           <SafeAreaProvider>
-            <SafeAreaView style = {{ flex: 1, justifyContent: "center"}}>
+            <SafeAreaView style = {{ flex: 1, justifyContent: "center" , padding: 20  }}>
 
         
+            <ProfileCard/>
+            <ProfileCard/>
             <ProfileCard/>
 
 
