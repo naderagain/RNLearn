@@ -26,16 +26,16 @@ export function ProfileCard() {
 
 <View style={s.social}>
 
-<TouchableOpacity>
+<TouchableOpacity  style={s.socialBtn} >
 <FontAwesome name="twitter" size={24} color="#1DA1F2" />
 </TouchableOpacity>
 
 
-<TouchableOpacity>
+<TouchableOpacity style={s.socialBtn} >
 <FontAwesome name="linkedin-square" size={24} color="#0A66C2" />
 </TouchableOpacity>
 
-<TouchableOpacity>
+<TouchableOpacity style={s.socialBtn}>
 
 <FontAwesome name="github" size={24} color="#333" />
 </TouchableOpacity>

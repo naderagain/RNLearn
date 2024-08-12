@@ -12,6 +12,13 @@ import { StyleSheet, View, Text } from 'react-native'
 
 export const s = StyleSheet.create({
 
+  socialBtn: {
+    borderRadius: "50%",
+    padding: 10,
+    backgroundColor: "#eee",
+  },
+
+
   social: {
     padding: 10,
     justifyContent: "space-evenly",
