@@ -17,7 +17,7 @@ export function ProfileCard(props) {
           />
         </View>
         <View style={s.texts}>
-          <Text style={s.name}>Codiku TheDev</Text>
+          <Text style={s.name}>{props.firstName} </Text>
           <Text>
             Hi I am React native developer, let's get in touch, and soon
           </Text>
