@@ -4,9 +4,8 @@ import FontAwesome from '@expo/vector-icons/FontAwesome';
 //import { FontAwesome } from "@expo/vector-icons";
 
 
-export function ProfileCard(props) {
+export function ProfileCard(firstName, lastName) {
   
-  console.log(props)
   return (
     <View style={s.container}>
       <View style={s.header}>
@@ -17,9 +16,9 @@ export function ProfileCard(props) {
           />
         </View>
         <View style={s.texts}>
-          <Text style={s.name}>{props.firstName  + "hello"  }  </Text>
+          <Text style={s.name}> {firstName.firstName}  {lastName.lastName} </Text>
           <Text>
-            Hi I am React native developer, let's get in touch, and soon
+            Hi I am React native  developer   , let's get in touch, and soon
           </Text>
         </View>
       </View>
