@@ -5,6 +5,11 @@ import FontAwesome from '@expo/vector-icons/FontAwesome';
 
 
 export function ProfileCard(firstName, lastName) {
+
+  function greetings(){
+
+    "asdfafasdfsadf"
+  }
   
   return (
     <View style={s.container}>
@@ -18,6 +23,9 @@ export function ProfileCard(firstName, lastName) {
         <View style={s.texts}>
           <Text style={s.name}> {firstName.firstName}  {lastName.lastName} </Text>
           <Text>
+
+         {greetings()}
+
             Hi I am React native  developer   , let's get in touch, and soon
           </Text>
         </View>
