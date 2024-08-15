@@ -4,7 +4,7 @@ import FontAwesome from '@expo/vector-icons/FontAwesome';
 //import { FontAwesome } from "@expo/vector-icons";
 
 
-export function ProfileCard(firstName, lastName) {
+export function ProfileCard(firstName, lastName, children) {
 
   function greetings(){
 
@@ -25,8 +25,8 @@ export function ProfileCard(firstName, lastName) {
           <Text>
 
          {greetings()}
-
-            Hi I am React native  developer   , let's get in touch, and soon
+         
+            Hi I am React native  developer  {children}  , let's get in touch, and soon
           </Text>
         </View>
       </View>
