@@ -13,7 +13,12 @@ export default function index(){
     return (
 
           <SafeAreaProvider>
-           <SafeAreaView style = {{backgroundColor: "red"}}></SafeAreaView>
+           <SafeAreaView style = {{backgroundColor: "red", flex: 1   }}>
+            <View style={{backgroundColor: "blue" , flex: 1 }}  />
+            <View style={{backgroundColor: "green" , flex: 1 }}  />
+            <View style={{}}  />
+
+           </SafeAreaView>
           </SafeAreaProvider>
           
           
