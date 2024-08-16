@@ -13,19 +13,26 @@ export default function index(){
     return (
 
           <SafeAreaProvider>
-           <SafeAreaView style = {{backgroundColor: "red", flex: 1   }}>
-            <View style={{backgroundColor: "blue" , flex: 1 }}  />
-            <View style={{backgroundColor: "green" , flex: 1 }}  />
-            <View style={{}}  />
+           <SafeAreaView style = {{ flex: 1   }}>
+            <View style={  d.box1 }  />
+            <View style={  d.box2 }  />
+            <View style={  d.box3 }  />
 
            </SafeAreaView>
           </SafeAreaProvider>
           
           
  
-      )
+      );
 
 
      
 }
 
+export const d = StyleSheet.create({
+
+  box1: {height: 100, width: 100, backgroundColor: "red"},
+  box2: {height: 100, width: 100, backgroundColor: "green"},
+  box3: {height: 100, width: 100, backgroundColor: "blue"}
+
+})
