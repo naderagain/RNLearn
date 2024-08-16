@@ -1,37 +1,25 @@
 import { StyleSheet, View, Text } from 'react-native'
 import React from 'react'
 import Nadertest from '../../components/Nadertest'
-import {s} from "./App.Style"
+import { s } from "./App.Style"
 import { ProfileCard } from './ProfileCard'
 
 
 // you are importing 2 components: 
 // npm i 
-import {SafeAreaView, SafeAreaProvider} from "react-native-safe-area-context"
-export default function index(){
+import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context"
+export default function index() {
 
-    return (
+  return (
 
-          <SafeAreaProvider>
-            <SafeAreaView style = {{ flex: 1, justifyContent: "center" , padding: 20  }}>
+    <SafeAreaProvider>
+      <SafeAreaView style={{ flex: 1, justifyContent: "center", padding: 20 }}>
+        <ProfileCard firstName={"Nadir"} lastName={"Ahmad"}>
+        I specialize in building mobile apps
+        </ProfileCard>
+      </SafeAreaView>
+    </SafeAreaProvider>
 
-        
-            <ProfileCard  firstName = {"Nadier"}  lastName = {"Nadier"}>
-
-              IwantThisChildToPrint
-
-            </ProfileCard>
-           
-
-
-            </SafeAreaView>
-          </SafeAreaProvider>
-          
-          
- 
-      )
-
-
-     
+  )
 }
 

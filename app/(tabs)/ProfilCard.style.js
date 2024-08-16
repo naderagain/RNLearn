@@ -35,6 +35,7 @@ export const s = StyleSheet.create({
     fontSize: 24,
     fontWeight: "bold",
     marginBottom: 5,
+    color: 'black'
   },
 
 

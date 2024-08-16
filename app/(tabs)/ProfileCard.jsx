@@ -4,13 +4,12 @@ import FontAwesome from '@expo/vector-icons/FontAwesome';
 //import { FontAwesome } from "@expo/vector-icons";
 
 
-export function ProfileCard(firstName, lastName, children) {
+export function ProfileCard({firstName, lastName, children}) {
 
-  function greetings(){
-
-    "asdfafasdfsadf"
+  function greetings() {
+    return "Good Morning!\n"
   }
-  
+
   return (
     <View style={s.container}>
       <View style={s.header}>
@@ -21,39 +20,25 @@ export function ProfileCard(firstName, lastName, children) {
           />
         </View>
         <View style={s.texts}>
-          <Text style={s.name}> {firstName.firstName}  {lastName.lastName} </Text>
+          <Text style={s.name}> {firstName}  {lastName} </Text>
           <Text>
-
-         {greetings()}
-         
-            Hi I am React native  developer  {children}  , let's get in touch, and soon
+            {greetings()}
+            Hi I am React native  developer  {children}, let's get in touch, and soon
           </Text>
         </View>
       </View>
 
-    
-
-<View style={s.social}>
-
-<TouchableOpacity  style={s.socialBtn} >
-<FontAwesome name="twitter" size={24} color="#1DA1F2" />
-</TouchableOpacity>
-
-
-<TouchableOpacity style={s.socialBtn} >
-<FontAwesome name="linkedin-square" size={24} color="#0A66C2" />
-</TouchableOpacity>
-
-<TouchableOpacity style={s.socialBtn}>
-
-<FontAwesome name="github" size={24} color="#333" />
-</TouchableOpacity>
-
-</View>
-</View>
-
-
-
-
+      <View style={s.social}>
+        <TouchableOpacity style={s.socialBtn} >
+          <FontAwesome name="twitter" size={24} color="#1DA1F2" />
+        </TouchableOpacity>
+        <TouchableOpacity style={s.socialBtn} >
+          <FontAwesome name="linkedin-square" size={24} color="#0A66C2" />
+        </TouchableOpacity>
+        <TouchableOpacity style={s.socialBtn}>
+          <FontAwesome name="github" size={24} color="#333" />
+        </TouchableOpacity>
+      </View>
+    </View>
   );
 }
