@@ -13,18 +13,7 @@ export default function index(){
     return (
 
           <SafeAreaProvider>
-            <SafeAreaView style = {{ flex: 1, justifyContent: "center" , padding: 20  }}>
-
-        
-            <ProfileCard  firstName = {"Nadier"}  lastName = {"Nadier"}>
-
-              IwantThisChildToPrint
-
-            </ProfileCard>
-           
-
-
-            </SafeAreaView>
+           <SafeAreaView style = {{backgroundColor: "red"}}></SafeAreaView>
           </SafeAreaProvider>
           
           
