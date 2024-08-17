@@ -4,7 +4,7 @@ import FontAwesome from '@expo/vector-icons/FontAwesome';
 //import { FontAwesome } from "@expo/vector-icons";
 
 
-export function ProfileCard({firstName, lastName, children, age  }) {
+export function ProfileCard({firstName, lastName, children, age, isHappy , isBored  }) {
 
   function greetings(){
 
@@ -25,6 +25,13 @@ export function ProfileCard({firstName, lastName, children, age  }) {
           <Text style={{  fontSize: 70}}>
 
             {age > 30 ? "you are old"  : "you are young"   }
+
+
+
+            { isHappy  &&  <Text style={{  fontSize: 20}}>I am happy</Text> }
+            { !isBored  &&  <Text style={{  fontSize: 20}}>I am bored</Text> }
+
+
 
           </Text>
           

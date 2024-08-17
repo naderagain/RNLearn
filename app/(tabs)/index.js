@@ -15,7 +15,7 @@ export default function index(){
           <SafeAreaProvider>
            <SafeAreaView style = {{ flexDirection: 'column', justifyContent: "center"   }}>
            
-           <ProfileCard   firstName={"Nader"}   lastName={"Ahmed"}     age={30}     />
+           <ProfileCard   firstName={"Nader"}   lastName={"Ahmed"}     age={30}   isHappy isBored={false}  />
 
            </SafeAreaView>
           </SafeAreaProvider>
