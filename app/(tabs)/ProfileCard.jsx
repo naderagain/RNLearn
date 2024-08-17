@@ -28,7 +28,8 @@ export function ProfileCard({firstName, lastName, children, age, isHappy , isBor
 
 
 
-            { isHappy  &&  <Text style={{  fontSize: 20}}>I am happy</Text> }
+             {/*  { isHappy  &&  <Text style={{  fontSize: 20}}>I am happy</Text> }  */}
+
             { !isBored  &&  <Text style={{  fontSize: 20}}>I am bored</Text> }
 
 
