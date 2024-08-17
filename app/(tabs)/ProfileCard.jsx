@@ -49,7 +49,7 @@ export function ProfileCard({firstName, lastName, children, age, isHappy , isBor
             
 
 
-           <Text style={{ backgroundColor: "green",  fontSize: 70}}> 3qrqfalsfhaslkfhasdlkfhdaskjf</Text>
+           <Text style={{ backgroundColor:  isHappy?     "green" : "red"    ,  fontSize: 70}}> 3qrqfalsfhaslkfhasdlkfhdaskjf</Text>
 
 
           </Text>
