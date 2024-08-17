@@ -14,9 +14,8 @@ export default function index(){
 
           <SafeAreaProvider>
            <SafeAreaView style = {{ flexDirection: 'column', justifyContent: "center"   }}>
-            <View style={  d.box1 }  />
-            <View style={  d.box2 }  />
-            <View style={  d.box3 }  />
+           
+           <ProfileCard/>
 
            </SafeAreaView>
           </SafeAreaProvider>
