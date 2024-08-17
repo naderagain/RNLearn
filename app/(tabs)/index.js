@@ -13,7 +13,7 @@ export default function index(){
     return (
 
           <SafeAreaProvider>
-           <SafeAreaView style = {{ flex: 1   }}>
+           <SafeAreaView style = {{ flexDirection: 'column', justifyContent: "center"   }}>
             <View style={  d.box1 }  />
             <View style={  d.box2 }  />
             <View style={  d.box3 }  />
