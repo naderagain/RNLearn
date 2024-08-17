@@ -33,17 +33,23 @@ export function ProfileCard({firstName, lastName, children, age, isHappy , isBor
             { !isBored  &&  <Text style={{  fontSize: 20}}>I am bored</Text> }
 
            
-           {isHappy ? (  
+           {
+           
+           isHappy ? (  
 
-                 <Text style={{  fontSize: 20}}>asdf</Text> 
+                 <Text style={{   fontSize: 20}}>asdf</Text> 
 
 
            ) :(
                   <Text style={{  fontSize: 20}}>333333</Text> 
-           )} 
+           )
+           
+           } 
            
             
 
+
+           <Text style={{ backgroundColor: "green",  fontSize: 70}}> 3qrqfalsfhaslkfhasdlkfhdaskjf</Text>
 
 
           </Text>
