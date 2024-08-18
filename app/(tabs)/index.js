@@ -21,7 +21,7 @@ export default function index(){
 
            </SafeAreaView>
           </SafeAreaProvider>
-          
+            
           
  
       );
