@@ -3,6 +3,7 @@ import React from 'react'
 import Nadertest from '../../components/Nadertest'
 import {s} from "./App.Style"
 import { ProfileCard } from './ProfileCard'
+import { AgeCounter } from './AgeCounter'
 
 
 // you are importing 2 components: 
@@ -13,9 +14,10 @@ export default function index(){
     return (
 
           <SafeAreaProvider>
-           <SafeAreaView style = {{ flexDirection: 'column', justifyContent: "center"   }}>
+           <SafeAreaView >
            
-           <ProfileCard   firstName={"Nader"}   lastName={"Ahmed"}     age={30}   isHappy isBored={false}  />
+       
+           <AgeCounter/>
 
            </SafeAreaView>
           </SafeAreaProvider>
