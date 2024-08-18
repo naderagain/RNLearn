@@ -11,18 +11,21 @@ export function AgeCounter(){
     function increaseAge(){
 
         age++;
+        console.log(age);
     }
 
 
     return <>
 
 
-<TouchableOpacity style = {{
-    width: 40,
+<TouchableOpacity 
+  onPress={increaseAge}
+style = {{
+    width: 60,
     backgroundColor: "#0000FF" }}   >
     <Text>Increase age</Text>
 </TouchableOpacity>
-<Text>Increase age</Text>
+<Text>Increase age {age}  </Text>
           
 
         </>
