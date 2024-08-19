@@ -1,4 +1,4 @@
-import { StyleSheet, View, Text } from 'react-native'
+import { StyleSheet, View, Text, Alert } from 'react-native'
 import React from 'react'
 import Nadertest from '../../components/Nadertest'
 import {s} from "./App.Style"
@@ -11,13 +11,21 @@ import { AgeCounter } from './AgeCounter'
 import {SafeAreaView, SafeAreaProvider} from "react-native-safe-area-context"
 export default function index(){
 
+
+  function hello(){
+Alert.alert("Helo")
+
+  }
+
+
+
     return (
 
           <SafeAreaProvider>
            <SafeAreaView >
            
        
-           <AgeCounter/>
+       <ProfileCard  onPressTitle={hello}   />
 
            </SafeAreaView>
           </SafeAreaProvider>
