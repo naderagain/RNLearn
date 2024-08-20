@@ -22,11 +22,11 @@ export function ProfileCard({firstName, lastName, children, age, isHappy , isBor
         </View>
         <View style={s.texts}>
           
-          <Text style={{  fontSize: 30}}>
-
-            {age > 30 ? "you are old"  : "you are young"   }
+          <Text style={s.name}>
 
 
+
+{firstName}  {lastName}
 
         
 

@@ -34,7 +34,7 @@ firstName, lastName, children, age, isHappy , isBored
            <SafeAreaView >
            
        
-       <ProfileCard  firstName={"asdf"}   lastName={"asdf"}   
+       <ProfileCard  firstName={"nader"}   lastName={"ahmed"}   
        children={"here is a child"}  age={30}   
 
        isHappy isBored
