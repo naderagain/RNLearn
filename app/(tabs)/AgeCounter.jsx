@@ -17,6 +17,7 @@ const[age, setAge] = useState(30) // 30 is the default value
         //console.log(age);
 
        setAge(age + 1)
+       console.log("I render ", age)
     }
 
 

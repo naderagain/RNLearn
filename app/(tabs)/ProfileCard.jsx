@@ -26,19 +26,9 @@ export function ProfileCard({firstName, lastName, children, age, isHappy , isBor
 
 
 
-{firstName}  {lastName}
+            {firstName}  {lastName}
 
-        
-
-            { !isBored  &&  <Text style={{  fontSize: 20}}>I am bored</Text> }
-
-           
-           
-            
-
-
-
-
+   
           </Text>
           
           
