@@ -28,7 +28,7 @@ export function ProfileCard({
         <View style={s.texts}>
 
 
-        <TouchableOpacity onPress={onPressTitle} >
+        <TouchableOpacity onPress={onPressTitle(firstName + "  " + lastName) } >
           <Text style={s.name}>
             {" "}
             {firstName} {lastName}{" "}
