@@ -9,8 +9,8 @@ import { AgeCounter } from "./AgeCounter";
 // npm i
 import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
 export default function index() {
-  function hello() {
-    Alert.alert("Helo");
+  function hello(name) {
+    Alert.alert("Helo" + name);
   }
 
   /*
