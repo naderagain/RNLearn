@@ -16,6 +16,10 @@ export function ProfileCard({
     "asdfafasdfsadf";
   }
 
+function onPressTitle_(){
+  onPressTitle(firstName + "  " + lastName)
+}
+
   return (
     <View style={s.container}>
       <View style={s.header}>
@@ -28,7 +32,7 @@ export function ProfileCard({
         <View style={s.texts}>
 
 
-        <TouchableOpacity onPress={onPressTitle(firstName + "  " + lastName) } >
+        <TouchableOpacity onPress={onPressTitle_ } >
           <Text style={s.name}>
             {" "}
             {firstName} {lastName}{" "}
