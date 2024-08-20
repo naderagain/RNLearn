@@ -19,13 +19,27 @@ Alert.alert("Helo")
 
 
 
+/*
+
+firstName, lastName, children, age, isHappy , isBored
+
+
+*/
+
+
+
     return (
 
           <SafeAreaProvider>
            <SafeAreaView >
            
        
-       <ProfileCard  onPressTitle={hello}   />
+       <ProfileCard  firstName={"asdf"}   lastName={"asdf"}   
+       children={"asdf"}  age={30}   
+
+       isHappy isBored
+       
+       />
 
            </SafeAreaView>
           </SafeAreaProvider>

@@ -22,34 +22,26 @@ export function ProfileCard({firstName, lastName, children, age, isHappy , isBor
         </View>
         <View style={s.texts}>
           
-          <Text style={{  fontSize: 70}}>
+          <Text style={{  fontSize: 30}}>
 
             {age > 30 ? "you are old"  : "you are young"   }
 
 
 
-             {/*  { isHappy  &&  <Text style={{  fontSize: 20}}>I am happy</Text> }  */}
+        
 
             { !isBored  &&  <Text style={{  fontSize: 20}}>I am bored</Text> }
 
            
            {
            
-           isHappy ? (  
-
-                 <Text style={{   fontSize: 20}}>asdf</Text> 
-
-
-           ) :(
-                  <Text style={{  fontSize: 20}}>333333</Text> 
-           )
+           
            
            } 
            
             
 
 
-           <Text style={{ backgroundColor:  isHappy?     "green" : "red"    ,  fontSize: 70}}> 3qrqfalsfhaslkfhasdlkfhdaskjf</Text>
 
 
           </Text>
