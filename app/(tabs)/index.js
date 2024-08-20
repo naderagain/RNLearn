@@ -35,7 +35,7 @@ firstName, lastName, children, age, isHappy , isBored
            
        
        <ProfileCard  firstName={"asdf"}   lastName={"asdf"}   
-       children={"asdf"}  age={30}   
+       children={"here is a child"}  age={30}   
 
        isHappy isBored
        
