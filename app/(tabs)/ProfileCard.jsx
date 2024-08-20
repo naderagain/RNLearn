@@ -4,6 +4,7 @@ import FontAwesome from "@expo/vector-icons/FontAwesome";
 //import { FontAwesome } from "@expo/vector-icons";
 
 export function ProfileCard({
+  onPressTitle,
   firstName,
   lastName,
   children,
@@ -25,10 +26,16 @@ export function ProfileCard({
           />
         </View>
         <View style={s.texts}>
+
+
+        <TouchableOpacity onPress={onPressTitle} >
           <Text style={s.name}>
             {" "}
             {firstName} {lastName}{" "}
           </Text>
+        </TouchableOpacity>
+
+
 
           <Text>
             {greetings()}
