@@ -1,4 +1,4 @@
-import { StyleSheet, View, Text, Alert, Linking } from "react-native";
+import { StyleSheet, View, Text, Alert, Linking, Platform } from "react-native";
 import React from "react";
 import Nadertest from "../../components/Nadertest";
 import { s } from "./App.Style";
@@ -52,6 +52,9 @@ firstName, lastName, children, age, isHappy , isBored
           isBored
           onPressGithub={goToGithub}
         />
+
+{Platform.OS == "android"  &&  <Text>only show on android</Text>  }
+
       </SafeAreaView>
     </SafeAreaProvider>
   );
