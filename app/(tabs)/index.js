@@ -11,7 +11,7 @@ import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
 export default function index() {
 
 
-  function goToGithub(){
+  function goToGithub(socialMedia){
     Linking.openURL("https://www.cnn.com");
   }
 

@@ -59,7 +59,7 @@ function onPressTitle_(){
           <FontAwesome name="linkedin-square" size={24} color="#0A66C2" />
         </TouchableOpacity>
 
-        <TouchableOpacity  onPress={onPressGithub}     style={s.socialBtn}>
+        <TouchableOpacity  onPress={   onPressGithub("github") }     style={s.socialBtn}>
           <FontAwesome name="github" size={24} color="#333" />
         </TouchableOpacity>
       </View>
