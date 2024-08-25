@@ -12,7 +12,19 @@ export default function index() {
 
 
   function goToGithub(socialMedia){
-    Linking.openURL("https://www.cnn.com");
+
+
+    let url;
+
+    switch(socialMedia){
+      case "github":
+      url =  "https://www.cnn.com";
+      break;
+    }
+
+
+
+    Linking.openURL(url);
   }
 
 
