@@ -1,4 +1,4 @@
-import { StyleSheet, View, Text, Alert } from "react-native";
+import { StyleSheet, View, Text, Alert, Linking } from "react-native";
 import React from "react";
 import Nadertest from "../../components/Nadertest";
 import { s } from "./App.Style";
@@ -9,6 +9,13 @@ import { AgeCounter } from "./AgeCounter";
 // npm i
 import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
 export default function index() {
+
+
+  function goToGithub(){
+    Linking.openURL("https://www.cnn.com");
+  }
+
+
   function hello(name) {
     Alert.alert("Helo" + name);
   }
@@ -31,6 +38,7 @@ firstName, lastName, children, age, isHappy , isBored
           age={30}
           isHappy
           isBored
+          onPressGithub={goToGithub}
         />
       </SafeAreaView>
     </SafeAreaProvider>

@@ -11,6 +11,7 @@ export function ProfileCard({
   age,
   isHappy,
   isBored,
+  onPressGithub,
 }) {
   function greetings() {
     "asdfafasdfsadf";
@@ -58,7 +59,7 @@ function onPressTitle_(){
           <FontAwesome name="linkedin-square" size={24} color="#0A66C2" />
         </TouchableOpacity>
 
-        <TouchableOpacity style={s.socialBtn}>
+        <TouchableOpacity  onPress={onPressGithub}     style={s.socialBtn}>
           <FontAwesome name="github" size={24} color="#333" />
         </TouchableOpacity>
       </View>
